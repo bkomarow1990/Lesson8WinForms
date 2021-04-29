@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8WinForms", "Lesson8WinForms\Lesson8WinForms.csproj", "{6705BB76-F6BB-4BF8-8DBD-AA4A31E0F0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classwork1", "Classwork1\Classwork1.csproj", "{DB71F55E-10EC-425C-A751-FC8F7011649D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6705BB76-F6BB-4BF8-8DBD-AA4A31E0F0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6705BB76-F6BB-4BF8-8DBD-AA4A31E0F0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6705BB76-F6BB-4BF8-8DBD-AA4A31E0F0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6705BB76-F6BB-4BF8-8DBD-AA4A31E0F0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB71F55E-10EC-425C-A751-FC8F7011649D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB71F55E-10EC-425C-A751-FC8F7011649D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB71F55E-10EC-425C-A751-FC8F7011649D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB71F55E-10EC-425C-A751-FC8F7011649D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8F67187-D595-41CB-B583-9888F9FEF514}
+	EndGlobalSection
+EndGlobal
