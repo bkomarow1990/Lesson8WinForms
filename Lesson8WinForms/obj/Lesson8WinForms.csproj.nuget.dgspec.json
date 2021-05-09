@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj": {}
+    "C:\\Users\\Igor\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj": {
+    "C:\\Users\\Igor\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj",
         "projectName": "Lesson8WinForms",
-        "projectPath": "C:\\Users\\dev\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj",
-        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\obj\\",
+        "projectPath": "C:\\Users\\Igor\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\Lesson8WinForms.csproj",
+        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Igor\\source\\repos\\Lesson8WinForms\\Lesson8WinForms\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

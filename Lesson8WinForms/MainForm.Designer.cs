@@ -43,9 +43,10 @@ namespace Lesson8WinForms
             // 
             // showBtn
             // 
-            this.showBtn.Location = new System.Drawing.Point(51, 111);
+            this.showBtn.Location = new System.Drawing.Point(58, 148);
+            this.showBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.showBtn.Name = "showBtn";
-            this.showBtn.Size = new System.Drawing.Size(231, 42);
+            this.showBtn.Size = new System.Drawing.Size(264, 56);
             this.showBtn.TabIndex = 0;
             this.showBtn.Text = "Show";
             this.showBtn.UseVisualStyleBackColor = true;
@@ -53,22 +54,25 @@ namespace Lesson8WinForms
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // colorComboBox
             // 
             this.colorComboBox.FormattingEnabled = true;
-            this.colorComboBox.Location = new System.Drawing.Point(51, 82);
+            this.colorComboBox.Location = new System.Drawing.Point(58, 109);
+            this.colorComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.colorComboBox.Name = "colorComboBox";
-            this.colorComboBox.Size = new System.Drawing.Size(231, 23);
+            this.colorComboBox.Size = new System.Drawing.Size(263, 28);
             this.colorComboBox.TabIndex = 2;
             // 
             // showDialogBtn
             // 
-            this.showDialogBtn.Location = new System.Drawing.Point(51, 159);
+            this.showDialogBtn.Location = new System.Drawing.Point(58, 212);
+            this.showDialogBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.showDialogBtn.Name = "showDialogBtn";
-            this.showDialogBtn.Size = new System.Drawing.Size(231, 42);
+            this.showDialogBtn.Size = new System.Drawing.Size(264, 56);
             this.showDialogBtn.TabIndex = 3;
             this.showDialogBtn.Text = "ShowDialog";
             this.showDialogBtn.UseVisualStyleBackColor = true;
@@ -76,9 +80,10 @@ namespace Lesson8WinForms
             // 
             // showOverloadBtn
             // 
-            this.showOverloadBtn.Location = new System.Drawing.Point(51, 207);
+            this.showOverloadBtn.Location = new System.Drawing.Point(58, 276);
+            this.showOverloadBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.showOverloadBtn.Name = "showOverloadBtn";
-            this.showOverloadBtn.Size = new System.Drawing.Size(231, 42);
+            this.showOverloadBtn.Size = new System.Drawing.Size(264, 56);
             this.showOverloadBtn.TabIndex = 4;
             this.showOverloadBtn.Text = "Show(Overload)";
             this.showOverloadBtn.UseVisualStyleBackColor = true;
@@ -86,44 +91,47 @@ namespace Lesson8WinForms
             // 
             // setTextForChildrenBtn
             // 
-            this.setTextForChildrenBtn.Location = new System.Drawing.Point(51, 255);
+            this.setTextForChildrenBtn.Location = new System.Drawing.Point(58, 340);
+            this.setTextForChildrenBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.setTextForChildrenBtn.Name = "setTextForChildrenBtn";
-            this.setTextForChildrenBtn.Size = new System.Drawing.Size(231, 42);
+            this.setTextForChildrenBtn.Size = new System.Drawing.Size(264, 56);
             this.setTextForChildrenBtn.TabIndex = 5;
             this.setTextForChildrenBtn.Text = "Set text for children";
             this.setTextForChildrenBtn.UseVisualStyleBackColor = true;
             // 
             // CloseAllBtn
             // 
-            this.CloseAllBtn.Location = new System.Drawing.Point(51, 303);
+            this.CloseAllBtn.Location = new System.Drawing.Point(58, 404);
+            this.CloseAllBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CloseAllBtn.Name = "CloseAllBtn";
-            this.CloseAllBtn.Size = new System.Drawing.Size(231, 42);
+            this.CloseAllBtn.Size = new System.Drawing.Size(264, 56);
             this.CloseAllBtn.TabIndex = 6;
             this.CloseAllBtn.Text = "Close All";
             this.CloseAllBtn.UseVisualStyleBackColor = true;
             // 
             // titleTxtBox
             // 
-            this.titleTxtBox.Location = new System.Drawing.Point(51, 53);
+            this.titleTxtBox.Location = new System.Drawing.Point(58, 71);
+            this.titleTxtBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.titleTxtBox.Name = "titleTxtBox";
-            this.titleTxtBox.Size = new System.Drawing.Size(231, 23);
+            this.titleTxtBox.Size = new System.Drawing.Size(263, 27);
             this.titleTxtBox.TabIndex = 7;
             this.titleTxtBox.TextChanged += new System.EventHandler(this.titleTxtBox_TextChanged);
             // 
             // infoLbl
             // 
             this.infoLbl.AutoSize = true;
-            this.infoLbl.Location = new System.Drawing.Point(289, 53);
+            this.infoLbl.Location = new System.Drawing.Point(330, 71);
             this.infoLbl.Name = "infoLbl";
-            this.infoLbl.Size = new System.Drawing.Size(96, 15);
+            this.infoLbl.Size = new System.Drawing.Size(121, 20);
             this.infoLbl.TabIndex = 8;
             this.infoLbl.Text = "Info from dialog:";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.infoLbl);
             this.Controls.Add(this.titleTxtBox);
             this.Controls.Add(this.CloseAllBtn);
@@ -132,6 +140,7 @@ namespace Lesson8WinForms
             this.Controls.Add(this.showDialogBtn);
             this.Controls.Add(this.colorComboBox);
             this.Controls.Add(this.showBtn);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.MainForm_Load);

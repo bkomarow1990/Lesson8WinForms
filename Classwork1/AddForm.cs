@@ -33,5 +33,10 @@ namespace Classwork1
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void AddForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

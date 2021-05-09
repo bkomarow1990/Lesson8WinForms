@@ -12,7 +12,7 @@ namespace Classwork1
         public float Price { get; set; }
         public override string ToString()
         {
-            return $"Name: {Name}, Description: {Description}, Author {Author}, Price: {Price}"; 
+            return $"Name: {Name}, Description: {Description}, Author {Author}, Price: {(decimal)Price}"; 
         }
         public Item(string name, string desc, string author, float price)
         {

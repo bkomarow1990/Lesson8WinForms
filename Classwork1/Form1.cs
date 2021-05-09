@@ -25,6 +25,7 @@ namespace Classwork1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            DoubleBuffered = true;
             foreach (var item in shop.items)
             {
                 this.basketListBox.Items.Add(item);
@@ -44,6 +45,11 @@ namespace Classwork1
 
         private void editBtn_Click(object sender, EventArgs e)
         {
+            if (basketListBox.SelectedItem == null)
+            {
+                MessageBox.Show("Select item");
+                return;
+            }
             EditForm editform = new EditForm(this);
             editform.ShowDialog();
         }

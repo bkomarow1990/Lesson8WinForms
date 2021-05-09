@@ -53,6 +53,12 @@ namespace Classwork1
             this.descTxtBox.Text = item.Description;
             this.authorTxtBox.Text = item.Author;
             this.priceNUP.Value = (decimal)item.Price;
+            this.priceNUP.Maximum = Int32.MaxValue;
+        }
+
+        private void priceNUP_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
