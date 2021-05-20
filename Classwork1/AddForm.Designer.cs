@@ -29,6 +29,7 @@ namespace Classwork1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.nameTxtBox = new System.Windows.Forms.TextBox();
             this.descTxtBox = new System.Windows.Forms.TextBox();
             this.authorTxtBox = new System.Windows.Forms.TextBox();
@@ -38,7 +39,9 @@ namespace Classwork1
             this.authorLbl = new System.Windows.Forms.Label();
             this.descriptionLbl = new System.Windows.Forms.Label();
             this.nameLbl = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.priceNUP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // nameTxtBox
@@ -132,6 +135,10 @@ namespace Classwork1
             this.nameLbl.TabIndex = 14;
             this.nameLbl.Text = "Name:";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -154,6 +161,7 @@ namespace Classwork1
             this.Text = "AddForm";
             this.Load += new System.EventHandler(this.AddForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.priceNUP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,5 +178,6 @@ namespace Classwork1
         private System.Windows.Forms.Label authorLbl;
         private System.Windows.Forms.Label descriptionLbl;
         private System.Windows.Forms.Label nameLbl;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

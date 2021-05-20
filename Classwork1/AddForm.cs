@@ -29,7 +29,8 @@ namespace Classwork1
                 parentForm.basketListBox.Items.Add(tmp);
                 MessageBox.Show("Added");
             }
-            catch (Exception ex) { 
+            catch (Exception ex) {
+                errorProvider1.SetError(this.addBtn, ex.Message);
                 MessageBox.Show(ex.Message);
             }
         }

@@ -29,6 +29,7 @@ namespace Classwork1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.editBtn = new System.Windows.Forms.Button();
             this.priceNUP = new System.Windows.Forms.NumericUpDown();
             this.authorTxtBox = new System.Windows.Forms.TextBox();
@@ -38,7 +39,9 @@ namespace Classwork1
             this.descriptionLbl = new System.Windows.Forms.Label();
             this.authorLbl = new System.Windows.Forms.Label();
             this.priceLbl = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.priceNUP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // editBtn
@@ -139,6 +142,10 @@ namespace Classwork1
             this.priceLbl.TabIndex = 13;
             this.priceLbl.Text = "Price:";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // EditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -160,6 +167,7 @@ namespace Classwork1
             this.Text = "EditForm";
             this.Load += new System.EventHandler(this.EditForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.priceNUP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,5 +184,6 @@ namespace Classwork1
         private System.Windows.Forms.Label descriptionLbl;
         private System.Windows.Forms.Label authorLbl;
         private System.Windows.Forms.Label priceLbl;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

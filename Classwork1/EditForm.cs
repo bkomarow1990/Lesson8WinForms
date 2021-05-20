@@ -43,6 +43,7 @@ namespace Classwork1
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                errorProvider1.SetError(this.editBtn, ex.Message);
             }
         }
 
